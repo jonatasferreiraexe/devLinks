@@ -1,4 +1,8 @@
 function toggleMode() {
-  const html = document.body
-  if(body.classList.contains('light'))
+  const html = document.documentElement
+  if (html.classList.contains("light")) {
+    html.classList.remove("light")
+  } else {
+    html.classList.add("light")
+  }
 }
