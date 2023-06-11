@@ -7,5 +7,5 @@ function toggleMode() {
   // }
 
   // simplifying the code
-  html.classList.toogle("light")
+  html.classList.toggle("light")
 }
